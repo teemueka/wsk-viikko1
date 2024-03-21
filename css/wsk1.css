@@ -1,0 +1,37 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#metropoliaLink {
+    text-decoration: none;
+    color: red;
+}
+
+#metropoliaLink:hover {
+    color: purple;
+}
+
+#image {
+    border-radius: 20px;
+    border: 5px solid;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(84, 248, 73);
+} 
+
+table tr:nth-child(1) {
+    background-color: rgb(170, 162, 162);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(84, 123, 238);
+}
+
+li {
+    list-style-type:lower-alpha
+}
